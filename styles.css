@@ -1,0 +1,11 @@
+* {
+box-sizing: border-box;
+}
+.container {
+max-width: 60rem;
+margin: auto;
+}
+.hero{
+    height: 30vh;
+    background-color: aquamarine;
+}
