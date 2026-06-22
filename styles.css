@@ -34,3 +34,27 @@ footer a{
     color: #3498db;
     font-weight: bold;
 }
+.grid article:first-of-type{
+    border: 3px solid gold;
+}
+button{
+    background-color: #333;
+    color: white;
+    padding: 0.8em 1.2em;
+    border: none;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #3498db;
+}
+.features {
+    list-style-type: none;
+    padding: 0;
+}
+.features li {
+    padding: 0.5em;
+    border-bottom: 1px solid #ddd;
+}
+.features li:nth-child(even) {
+    background-color: #eaf2f8;
+}
